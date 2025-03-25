@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sample website 2</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                background-image: url('sample 2 background.jpg');
+                background-size: cover;
+                background-repeat: repeat-y;
+                background-position: center;
+            }
+            .products-container {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 20px;
+                flex-wrap: wrap;
+                margin: 20px auto;
+            }
+            .black-bg1 {
+                background-color: rgb(119, 72, 82);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 0.3s;
+                margin-right: 20px;
+            }
+            .black-bg1:active {
+                opacity: .5;
+            }
+            .black-bg2 {
+                background-color: rgb(255, 234, 238);
+                color: rgb(37, 37, 37);
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            .black-bg2:active {
+                opacity: .5;
+            }
+            .white-bg {
+                background-color: rgb(207, 132, 148);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 0.3s;
+                margin-right: 20px;
+            }
+            .white-bg:Active {
+                opacity: .5;
+            }
+            .big-title {
+                text-align: center;
+                font-family: helvetica;
+                font-weight: bolder;
+                font-size: 200PX;
+                color: rgb(255, 250, 232);
+                text-shadow: 2px 2px 5px #6a6a6a;
+                margin-bottom: 0px;
+                margin-top: 50px;
+            }
+            .under-big-title {
+                text-align: center;
+                font-family: helvetica;
+                font-size: 40px;
+                color: rgb(255, 250, 232);
+                text-shadow: 2px 2px 5px #6a6a6a;
+                font-weight: lighter;
+            }
+            .first-hr {
+                border-radius: 10px;
+            }
+            hr.rounded {
+                border-top: 50px solid #bbb;
+                border-radius: 5px;
+            }
+            .container {
+                width: 90%;
+                margin: auto;
+                height: 100%;
+            }
+            header {
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: auto;
+                padding: 30px 0;
+                width: 800px;
+                margin: auto;
+            }
+            .header-container {
+                display: flex;
+                justify-content: center; /* Ensures the image is centered */
+                align-items: center;
+                width: 100%; /* Makes sure it takes full width */
+                flex-direction: column;
+                gap: 10px;
+            }
+            .sample-image {
+                max-width: 500px;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                opacity: 1;
+                border-radius: 10px;
+            }
+            .header-button {
+                background-color: rgb(174, 107, 121);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            .header-text {
+                color: white;
+                font-size: 20px;
+                font-family: helvetica;
+                text-shadow: 2px 2px 5px #6a6a6a;
+            }
+
+.header-button:hover {
+    background-color: rgb(195, 119, 135);
+}
+
+.header-button:active {
+    opacity: 0.7;
+}
+
+        </style>
+    </head>
+    <body>
+        <button class="black-bg1">home</button>
+        <button class="white-bg">shop</button>
+        <button class="black-bg2">Careers</button>
+        <p class="big-title">BEAUTY</p>
+        <button class="black-bg1">Erwin</button>
+        <p class="under-big-title">Fresh like a berry.</p>
+        <div class="product-section">
+        <div class="products-container">
+        <div class="flower-product">
+        </div>
+        </div>
+        </div>
+        <header>
+        <div class="header-container">
+            <img src="romand.jpg" alt="sampleimg" class="sample-image">
+            <p class="header-text">Gloss for every occasion.</p>
+            <button class="header-button">Order Now</button>
+        </div>
+        </header>
+        </body>
+    </body>
+</html>
